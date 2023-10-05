@@ -1,0 +1,167 @@
+/*清除盒子内外边距*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/*整体背景颜色*/
+body {
+    position: relative;
+    background-color: #ffffff;
+}
+.w {
+    width: 1200px;
+    background-color: #ffffff;
+    margin: 40px auto;
+}
+
+/*列表清除圆点*/
+li {
+    list-style: none;
+}
+/*链接消除下划线*/
+a {
+    text-decoration: none;
+    color: #5f7de7;
+}
+/*清除浮动*/
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+.clearfix {
+    *zoom:1;
+}
+
+.head{
+    position: relative;
+    padding: 30px 0;
+    width: auto;
+    height: 60px;
+    border-style: none;
+    border-bottom: 1px solid rgb(204,204,204);
+
+}
+.head em{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.head em img{
+    width: 20px;
+    height: 20px;
+}
+.head .qq{
+    padding-right: 100px;
+    padding-left: 400px;
+    float: left;
+    font-size: 20px;
+    color: #57cd94;
+}
+.head .weixin{
+    padding-left: 100px;
+    float: left;
+    font-size: 20px;
+
+}
+.body{
+    height: 585px;
+}
+.body .bodylift{
+    float: left;
+    width: 425px;
+    margin-left: 170px;
+    margin-top: 48px;
+}
+.body .bodylift .title h2{
+    display: block;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+}
+.body .bodylift .title p{
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.body .bodylift .zhanghao input{
+    width: 425px;
+    height: 60px;
+    border: 1px solid rgb(204,204,204);
+    margin-bottom: 20px;
+    text-indent: 1em;
+    font-size: 15px;
+    color: rgb(204,204,204);
+}
+.body .bodylift .mima input{
+    width: 425px;
+    height: 60px;
+    border: 1px solid rgb(204,204,204);
+    margin-bottom: 50px;
+    text-indent: 1em;
+    font-size: 15px;
+    color: rgb(204,204,204);
+}
+.body .bodylift .button{
+    width: 425px;
+    height: 63px;
+}
+.body .bodylift .button input{
+    display: block;
+    width: 425px;
+    height: 63px;
+    border-radius: 5px;
+    border: 1px solid rgb(204,204,204);
+    font-size: 20px;
+    background-color: #0099ff;
+    color: #ffffff;
+}
+.body .bodylift .nav{
+    height: 26px;
+    margin-top: 65px;
+}
+.body .bodylift .nav ul li{
+    float: left;
+}
+.body .bodylift .nav ul li{
+    margin-right: 100px;
+    font-size: 18px;
+}
+.body .bodylift .nav ul .last{
+    margin-right: 0;
+}
+
+.body .bodyright{
+    float: right;
+    width: 400px;
+    margin-top: 180px;
+    font-size: 18px;
+    color: rgb(127,111,133);
+}
+.body .bodyright{
+    /*border-left: 1px solid rgb(204,204,204);*/
+}
+.body .bodyright ul li{
+    margin-bottom: 10px;
+}
+.bottom input{
+    display: block;
+    width: 400px;
+    height: 60px;
+    margin-left: 400px;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid rgb(204,204,204);
+    color: white;
+    background: linear-gradient(to right,#24cba8, #30c27e);
+    border-radius: 30px;
+}
+
+
+
